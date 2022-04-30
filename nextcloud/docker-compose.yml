@@ -1,8 +1,8 @@
 version: '3'
 
 volumes:
-  nextcloud: ./volumes/nextcloud
-  db: ./volumes/db
+  nextcloud: "./volumes/nextcloud"
+  db: "./volumes/db"
 
 services:
   db:
